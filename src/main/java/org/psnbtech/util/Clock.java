@@ -11,7 +11,7 @@ public class Clock {
 	/**
 	 * The number of milliseconds that make up one cycle.
 	 */
-	private float millisPerCycle;
+	public float millisPerCycle;
 	
 	/**
 	 * The last time that the clock was updated (used for calculating the
@@ -22,7 +22,7 @@ public class Clock {
 	/**
 	 * The number of cycles that have elapsed and have not yet been polled.
 	 */
-	private int elapsedCycles;
+	public int elapsedCycles;
 	
 	/**
 	 * The amount of excess time towards the next elapsed cycle.
@@ -32,7 +32,7 @@ public class Clock {
 	/**
 	 * Whether or not the clock is paused.
 	 */
-	private boolean isPaused;
+	public boolean isPaused;
 	
 	/**
 	 * Creates a new clock and sets it's cycles-per-second.
