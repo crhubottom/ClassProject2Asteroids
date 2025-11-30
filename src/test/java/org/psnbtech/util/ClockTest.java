@@ -12,7 +12,7 @@ class ClockTest {
     void setCyclesPerSecond() {
         c.setCyclesPerSecond(20);
 
-        assertEquals(50.0f, c.millisPerCycle);
+        assertEquals(500.0f, c.millisPerCycle);
     }
     @Test
     void isPaused() {
